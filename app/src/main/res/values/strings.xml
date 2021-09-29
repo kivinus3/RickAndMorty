@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="fabBackDescription">Back</string>
+    <string name="imageViewPortraitDescription">Portrait</string>
+    <string name="character_portrait_description">Character portrait</string>
+    <string name="first_seen_in_list_item">First seen in:</string>
+    <string name="last_known_location_list_item">Last known location:</string>
+    <string name="info_list_detail">Gender: \n \n Origin: \n\n Location: \n\n Type: \n\n Dimension: \n\n Episodes:</string>
+    <string name="btn_retry_loading">RETRY</string>
+    <string name="loading_error_text">Results could not be loaded</string>
+</resources>

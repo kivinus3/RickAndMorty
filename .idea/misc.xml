@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator_gray.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator_green.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/image_view_gradient.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/rounded_image_bg.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/rounded_shape_bg.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/activity_app.xml" value="0.25407608695652173" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/activity_application.xml" value="0.16304347826086957" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/fragment_character_detail.xml" value="0.176" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/fragment_characters_list.xml" value="0.1" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/list_item_character.xml" value="0.4" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/load_state_footer.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="dagger.Provides" />
+      <item index="1" class="java.lang.String" itemvalue="dagger.hilt.InstallIn" />
+      <item index="2" class="java.lang.String" itemvalue="dagger.hilt.android.HiltAndroidApp" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

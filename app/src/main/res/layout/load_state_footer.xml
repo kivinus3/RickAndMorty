@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ProgressBar
+        android:id="@+id/progressBarFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewErrorFooter"
+        android:textColor="@color/white"
+        tools:textColor="@color/black"
+        android:text="@string/loading_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRetryFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_retry_loading"/>
+
+</LinearLayout>

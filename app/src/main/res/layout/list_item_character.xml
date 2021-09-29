@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/rounded_shape_bg">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/characterPortrait"
+        app:layout_constraintTop_toTopOf="parent"
+        tool:text="Character Name" />
+
+    <View
+        android:id="@+id/indicator"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvStatusAndRace"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/indicator"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        tool:text="Dead - Human" />
+
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/last_known_location_list_item"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/indicator"
+        app:layout_constraintTop_toBottomOf="@+id/indicator" />
+
+    <TextView
+        android:id="@+id/tvLocationInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvLocation"
+        app:layout_constraintTop_toBottomOf="@+id/tvLocation"
+        tool:text="Citadel of Ricks" />
+
+    <TextView
+        android:id="@+id/tvFirstSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/first_seen_in_list_item"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/tvLocationInput"
+        app:layout_constraintTop_toBottomOf="@+id/tvLocationInput" />
+
+    <TextView
+        android:id="@+id/tvFirstSeenInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvFirstSeen"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstSeen"
+        tool:text="Total Rickall" />
+
+
+    <ImageView
+        android:id="@+id/characterPortrait"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/character_portrait_description"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFirstSeenInput"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

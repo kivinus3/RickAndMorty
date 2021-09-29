@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    tools:context=".fragments.CharacterDetailFragment">
+
+    <FrameLayout
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_grey"
+        android:elevation="20dp">
+
+        <Button
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_retry_loading"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_gravity="bottom|center"
+            android:text="@string/loading_error_text"
+            android:visibility="invisible"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivPortrait"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#1C1D25"
+        android:contentDescription="@string/imageViewPortraitDescription"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/image_view_gradient"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPortrait"
+        app:layout_constraintEnd_toEndOf="@id/ivPortrait"
+        app:layout_constraintStart_toStartOf="@+id/ivPortrait"
+        app:layout_constraintTop_toTopOf="@+id/tvName" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/fabBackDescription"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_arrow_back_whit_24"
+        app:backgroundTint="@color/light_grey"
+        app:fabSize="mini"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:elevation="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPortrait"
+        app:layout_constraintStart_toStartOf="@+id/ivPortrait"
+        tools:text="Character Name" />
+
+    <View
+        android:id="@+id/indicator"
+        android:elevation="10dp"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+
+    <TextView
+        android:id="@+id/tvStatusAndRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/indicator"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="Dead - Human" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/info_list_detail"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPortrait" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPortrait"
+        tools:text="Male \n \n Earth \n\n Earth \n\n Planet \n\n Dimension C-137 \n\n 3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
