@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RickAndMorty</string>
+    <string name="app_name">Rick and Morty</string>
     <string name="fabBackDescription">Back</string>
     <string name="imageViewPortraitDescription">Portrait</string>
     <string name="character_portrait_description">Character portrait</string>

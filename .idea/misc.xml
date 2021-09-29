@@ -6,6 +6,7 @@
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator.xml" value="0.2703125" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator_gray.xml" value="0.2703125" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/circle_indicator_green.xml" value="0.2703125" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/image_view_gradient.xml" value="0.2703125" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/rounded_image_bg.xml" value="0.2703125" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/drawable/rounded_shape_bg.xml" value="0.2703125" />
@@ -15,6 +16,8 @@
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/fragment_characters_list.xml" value="0.1" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/list_item_character.xml" value="0.4" />
         <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/layout/load_state_footer.xml" value="0.1" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/KotlinLesson/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
       </map>
     </option>
   </component>
